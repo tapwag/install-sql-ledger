@@ -82,7 +82,7 @@ mkdir tmp spool users
 ```
 
 ```sh
-chown -hR www-data.www-data users templates css spool tmp
+chown -hR www-data:www-data users templates css spool tmp
 ```
 
 Copy and if necessary adapt your systems sql-ledger.conf file
